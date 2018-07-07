@@ -1,0 +1,4 @@
+git diff # difference between current directory and staged 
+git diff --staged # staged - last_commmit
+git diff --cached # is same as git diff --staged
+
