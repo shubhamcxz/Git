@@ -3,4 +3,9 @@ git diff --staged # staged - last_commmit
 git diff --cached # is same as git diff --staged
 git rm --cached README # unstage README
 git rm log/\*.log # git does its own file-name expansion, so \ is needed.
-
+#-------------------------------------------------------------------------
+git log --patch -2 # show changes made in the last two commits
+git log --stat
+git log --pretty=oneline #other options are `full` , `fuller` ,`format` & `short`.
+git log --pretty=format:"%h - %an,  %ar  :  %s"
+# %H commit hash %h abb. commit hash %T tree hash %p = parent , %a? = author ?(name/email/date/relative date), %s  subject
