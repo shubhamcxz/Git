@@ -1,0 +1,29 @@
+commit 0ede1269576f2512aca2bb2cb6d6688c2639b048
+Author: shubhamkriitr <shubhamkumar.iitr@gmail.com>
+Date:   Mon Jul 9 09:06:56 2018 +0530
+
+    Leaving new dummy file
+
+commit fd436d377393e3d0f574f1e300ed1b7ade2bf072
+Author: shubhamkriitr <shubhamkumar.iitr@gmail.com>
+Date:   Sat Jul 7 23:39:56 2018 +0530
+
+    Upto page-43
+
+commit b7fb183f915c39ad67a6d4e088e7d05c6bbfea38
+Author: shubhamkriitr <shubhamkumar.iitr@gmail.com>
+Date:   Sat Jul 7 23:20:23 2018 +0530
+
+    Added to GCL
+
+commit 01483959f66a31ac587f16653acdeadc89783391
+Author: shubhamkriitr <shubhamkumar.iitr@gmail.com>
+Date:   Sat Jul 7 21:31:58 2018 +0530
+
+    Added git-command-list
+
+commit f2d241619ae08499a21259833f9e2b81f263e51e
+Author: shubhamkriitr <shubhamkumar.iitr@gmail.com>
+Date:   Sat Jul 7 12:06:34 2018 +0530
+
+    First Commit - Added README
