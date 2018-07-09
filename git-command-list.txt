@@ -15,10 +15,22 @@ git commmit --amend -m "New Commit Message"
 #{
 git add forgotten_file
 git commit --amend --no-edit # making amendment without changing the commit message.
-
-
 #}
 git checkout -- <filename> # to unmodify the changes made to the file
 git remote -v # remotes
 git remote add <remote_name> <remote_link>
 git remote show <remote>
+git remote rename <old_remote_name> <new_remote_name>
+git remote remove <some_remote_name>
+#------------------------------------------------------------------------
+git tag # shows the list of available tags
+git tag -l "<pattern_to_match>" # same as : git tag --list "<pattern_..>"
+# git tqg types : lightweight     annotated
+
+#{ Creating an annotated tag
+git tag -a v1.5 -m "My version 1.5"
+
+#}
+
+
+
