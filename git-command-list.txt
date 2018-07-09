@@ -29,7 +29,7 @@ git tag -l "<pattern_to_match>" # same as : git tag --list "<pattern_..>"
 
 #{ Creating an annotated tag
 git tag -a v1.5 -m "My version 1.5"
-
+# tags are not shared - will have to push them separately.
 #}
 
 
