@@ -18,3 +18,7 @@ git commit --amend --no-edit # making amendment without changing the commit mess
 
 
 #}
+git checkout -- <filename> # to unmodify the changes made to the file
+git remote -v # remotes
+git remote add <remote_name> <remote_link>
+git remote show <remote>
