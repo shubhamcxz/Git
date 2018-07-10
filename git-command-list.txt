@@ -48,6 +48,49 @@ git config --global alias.unstage "reset HEAD --"
 
 git config --global alias.<alias_name> "!<external_command>" # for external commands use ! before the command to be executed.
 
+#-----------------------------------------------------------------------
+# -------------------------------- BRANCHING ---------------------------
+
+git branch testing
+# HEAD is the pointer to the local branch on which we are currently working on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
