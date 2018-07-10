@@ -39,7 +39,12 @@ git tag -a <tagname> <checksum/part_of_the_checksum>
 git tag -a  # ? 
 git show <tagname>
 
-git checkout <tagname> # has some ill effects due to DETACHED HEAD state.
+git checkout <tagname> # has some ill effects due to "detached HEAD state".
+
+# GIT ALIASES
+git config --global alias.<alias_name> <alias_value>
+git config --global alias.unstage "reset HEAD --"
+# git unstage <file_name>  will be  equivalent to git reset HEAD -- <file_name>
 
 
 
