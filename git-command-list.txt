@@ -55,6 +55,8 @@ git branch testing
 # HEAD is the pointer to the local branch on which we are currently working on.
 
 
+git log --oneline --graph --all # see the branch structure
+
 
 
 
