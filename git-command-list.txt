@@ -46,6 +46,9 @@ git config --global alias.<alias_name> <alias_value>
 git config --global alias.unstage "reset HEAD --"
 # git unstage <file_name>  will be  equivalent to git reset HEAD -- <file_name>
 
+git config --global alias.<alias_name> "!<external_command>" # for external commands use ! before the command to be executed.
+
+
 
 
  
