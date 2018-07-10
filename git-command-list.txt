@@ -30,7 +30,20 @@ git tag -l "<pattern_to_match>" # same as : git tag --list "<pattern_..>"
 #{ Creating an annotated tag
 git tag -a v1.5 -m "My version 1.5"
 # tags are not shared - will have to push them separately.
+
+git push <origin or other remote> <tag_name>
+git push <origin or other remote> --tags # pushes all the tags that aren't there already.
 #}
+ 
+git tag -a <tagname> <checksum/part_of_the_checksum>
+git tag -a  # ? 
+git show <tagname>
+
+git checkout <tagname> # has some ill effects due to DETACHED HEAD state.
+
+
+
+ 
 
 
 
