@@ -85,3 +85,18 @@ git ls-remote [remote] # Get a full list of remote references.
 git remote show [remote]
 
 git clone -o <name> # to make <name>/master the default remote branch instead of origin/master
+
+git fetch <remote> # updates local database and points <remote>/master to the latest remote state
+
+# Your local branches aren’t automatically synchronized to the remotes you write
+to — you have to explicitly push the branches you want to share.
+
+git push <remote> <branch_to_push>
+
+git push <remote> <branch_to_push>:<name_of_the_branch_to_be_used_on_remote>
+
+git config --global credential.helper cache #for saving credentials in cache for some time to avoid retyping passwords.
+
+
+
+
