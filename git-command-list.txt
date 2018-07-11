@@ -73,8 +73,8 @@ git mergetools # for gui based tool for conflict resolution
 
 git branch -v # shows last commit in each of the existing branch
 
-git branch --merged
-git branch --no-merged
+git branch --merged [<branch>]
+git branch --no-merged [<branch>] # if <branch> is not provided it will use the current branch 
 
 
 
