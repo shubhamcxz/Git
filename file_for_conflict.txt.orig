@@ -20,10 +20,15 @@ void count (int N) {
 	int i = 1;
 	for (;i<=N;++i){
 		cout<<i<<"\n";
+		cout<<"*****"<<"\n";//added in master
 	}
 // added in branch2
 }
 >>>
 //added in master
+<<<<<<< HEAD
 
 //added in master after changes made in branch2 right here.
+=======
+//added in branch2 before any changes made in master
+>>>>>>> branch2
