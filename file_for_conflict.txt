@@ -8,7 +8,7 @@ This text has been added by branch:master
 >>>
 
 <<<BLOCK#2
-
+This text was added in branch1.
 >>>
 
 <<<BLOCK#3
