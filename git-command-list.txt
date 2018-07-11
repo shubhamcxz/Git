@@ -57,6 +57,26 @@ git branch testing
 
 git log --oneline --graph --all # see the branch structure
 
+git checkout -b <branch_name> # is equivalent to
+# git branch <branch_name>
+# git checkout <branch_name>
+
+#{ MERGING
+git checkout <branch_in_which_another_branch_will_be_merged>
+git merge <branch_to_be_merged_in_the_main_branch>
+git branch -d <branch_name> # delete a branch
+# Merge strategy
+# `fast forward` `recursive` ``
+#}
+
+#{	 MERGE CONFLICTS
+git mergetools # gui based tool
+
+
+#}
+
+
+
 
 
 
