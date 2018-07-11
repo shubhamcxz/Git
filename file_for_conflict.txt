@@ -15,4 +15,11 @@ This text was added in branch1.
 This text was added in master. (After branch1 was created).
 >>>
 
-
+<<<BLOCK#4 Added in master
+void count (int N) {
+	int i = 1;
+	for (;i<=N;++i){
+		cout<<i<<"\n";
+	}
+}
+>>>
