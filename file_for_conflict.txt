@@ -22,5 +22,6 @@ void count (int N) {
 		cout<<i<<"\n";
 		cout<<"*****"<<"\n";//added in master
 	}
+// added in branch2
 }
 >>>
