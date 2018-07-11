@@ -69,13 +69,12 @@ git branch -d <branch_name> # delete a branch
 # `fast forward` `recursive` ``
 #}
 
-#{	 MERGE CONFLICTS
-git mergetools # gui based tool
+git mergetools # for gui based tool for conflict resolution
 
+git branch -v # shows last commit in each of the existing branch
 
-#}
-
-
+git branch --merged
+git branch --no-merged
 
 
 
