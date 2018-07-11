@@ -12,7 +12,7 @@ This text has been added by branch:master
 >>>
 
 <<<BLOCK#3
-
+This text was added in master. (After branch1 was created).
 >>>
 
 
