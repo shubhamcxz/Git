@@ -4,7 +4,7 @@ Created on: JUL 11 2018 WED 0942
 This file has been created to be edited later in two separate branch to create a merge conflict.
 
 <<<BLOCK#1
-
+This text has been added by branch:master
 >>>
 
 <<<BLOCK#2
