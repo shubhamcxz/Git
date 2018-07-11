@@ -76,46 +76,12 @@ git branch -v # shows last commit in each of the existing branch
 git branch --merged [<branch>]
 git branch --no-merged [<branch>] # if <branch> is not provided it will use the current branch 
 
+# common branches --> `develop` `next` `proposed`/`pu`(proposed updates) ``
 
+# The idea is that your branches are at various levels of stability; when they reach a
+more stable level, they’re merged into the branch above them.
 
+git ls-remote [remote] # Get a full list of remote references.
+git remote show [remote]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
+git clone -o <name> # to make <name>/master the default remote branch instead of origin/master
