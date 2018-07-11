@@ -103,8 +103,8 @@ git fetch origin # will create origin/<r_branch> pointer (which can't be moddifi
 
 git checkout -b <r_branch_local> origin/<r_branch> # will make a local branch <r_branch_local>
 
-
-
+git checkout -b <branch_name> <remote>/<branch>
+# Checking out a local branch from a remote-tracking branch automatically creates what is called a “tracking branch” (and the branch it tracks is called an “upstream branch”).
 #}
 
 
