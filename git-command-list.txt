@@ -97,6 +97,14 @@ git push <remote> <branch_to_push>:<name_of_the_branch_to_be_used_on_remote>
 
 git config --global credential.helper cache #for saving credentials in cache for some time to avoid retyping passwords.
 
+#{
+# suppose a branch <r_branch> has been made by someone that is not locally available.
+git fetch origin # will create origin/<r_branch> pointer (which can't be moddified) -- No local copy of the corresponding branch will be made available.
 
+git checkout -b <r_branch_local> origin/<r_branch> # will make a local branch <r_branch_local>
+
+
+
+#}
 
 
