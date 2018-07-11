@@ -20,6 +20,7 @@ void count (int N) {
 	int i = 1;
 	for (;i<=N;++i){
 		cout<<i<<"\n";
+		cout<<"*****"<<"\n";//added in master
 	}
 }
 >>>
