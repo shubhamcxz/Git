@@ -103,8 +103,21 @@ git fetch origin # will create origin/<r_branch> pointer (which can't be moddifi
 
 git checkout -b <r_branch_local> origin/<r_branch> # will make a local branch <r_branch_local>
 
-git checkout -b <branch_name> <remote>/<branch>
-# Checking out a local branch from a remote-tracking branch automatically creates what is called a “tracking branch” (and the branch it tracks is called an “upstream branch”).
+git checkout -b <branch_name> <remote>/<branch> # be sure to fetch latest <remote> before running this.
+# Checking out a local branch from a remote-tracking branch automatically creates what is called a “tracking branch” (and the branch it tracks is called an “upstream branch”). If you’re on a tracking branch and type git pull, Git automatically knows which server to fetch from and which branch to merge in.
+
+git checkout --track <remote>/<branch> # creates a tracking branch named <branch> for the upstream branch <remote>/<branch>
+
+git branch [-u | --set-upstream] <remote>/<branch> # to set/change the upstream branch of the current local branch
+
+# @{upstream} or @{u} refers to the upstream branch of the curent local branch
+# e.g. git merge @{upstream} instead of git merge origin/master
+
+git branch -vv # to see the tracking branches that you have set up.
+
+git fetch --all; git branch -vv # for the latest list of info.
+
+
 #}
 
 
