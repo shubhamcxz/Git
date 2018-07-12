@@ -117,6 +117,8 @@ git branch -vv # to see the tracking branches that you have set up.
 
 git fetch --all; git branch -vv # for the latest list of info.
 
+# Deleting a remote branch
+git push <remote> --delete <branch>
 
 #}
 
